@@ -1,0 +1,40 @@
+####
+GET http://localhost:8181/ HTTP/1.1
+
+{
+
+}
+
+####
+POST http://localhost:8181/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Lenove",
+    "password":"dev"
+}
+
+####
+POST http://localhost:8181/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"novok",
+    "password":"d22v"
+}
+
+####
+GET http://localhost:8181/userlist HTTP/1.1
+
+{
+
+}
+
+######
+GET http://localhost:8181/api/friends HTTP/1.1
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0aW1lIjoiTW9uIEp1bCAxMSAyMDIyIDE2OjUyOjQ2IEdNVCswNTMwIChJbmRpYSBTdGFuZGFyZCBUaW1lKSIsInVzZXIiOiJzd2Fybml0IiwiaWF0IjoxNjU3NTM4NTY2fQ.u4Q8W9SxFxDRiPareQwZfhyxWj1uPeigIOVZGixXJtU
+
+{
+
+}
+
